@@ -1,5 +1,5 @@
 // import { extend } from '@react-three/fiber'
-// import { MeshReflectorMaterial} from '@react-three/drei'
+import { MeshReflectorMaterial} from '@react-three/drei'
 import { useFrame, useLoader } from '@react-three/fiber'
 import { useEffect } from 'react'
 import {  LinearSRGBColorSpace, RepeatWrapping, TextureLoader } from 'three'
@@ -33,6 +33,7 @@ function Ground() {
             /** 
              * 
              
+            */
             <MeshReflectorMaterial
                 normalMap={normal}
                 roughnessMap={rough}
@@ -53,7 +54,6 @@ function Ground() {
                 debug={0}
                 reflectorOffset={0.2}
             />
-             */
         }
     </mesh>
   )
