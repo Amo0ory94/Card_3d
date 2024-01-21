@@ -10,10 +10,10 @@ const Car = () => {
     // const model = useLoader(GLTFLoader, './models/Car_Models/bugatti_chiron_last_unit/scene.gltf')
 
     // const {rotation} = useControls({rotation:{x:0,y:0,z:0}});
-    console.log('scene')
+ 
     // console.log(scene.children[0].children[0].children[0].children[0])
     let test = scene.children[0].children[0].children[0];
-    console.log(nodes)
+     
 
     // console.log( nodes['Object_23'])
     useEffect(() =>{
@@ -51,17 +51,7 @@ const Car = () => {
         nodes['tire_001_R17002'].rotation.x = t * 2
         nodes['tire_001_R17003'].rotation.x = t * 2
         nodes['tire_001_R17004'].rotation.x = t * 2
-        // nodes['rim_235003_rims_0'].rotation.x = t * 2
-        // nodes['rim_235004'].rotation.x = t * 2
-        // nodes['rim_235004_chrome_0'].rotation.x = t * 2
-        // nodes['rim_235004_rims_0'].rotation.x = t * 2
-        // group.children[2].rotation.x = t * 2
-        // group.children[4].rotation.x = t * 2
-        // group.children[6].rotation.x = t * 2
-        // nodes['Object_20_Tire_0'].rotation.x = t * 2
-        // nodes['Object_23'].rotation.x = t * 2
-        // nodes['Object_23'].up = t * 2
-        // nodes['Object_23'].quaternion.x = t * 2
+ 
     })
   return (
     <Suspense fallback={null}>

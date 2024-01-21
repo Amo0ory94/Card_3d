@@ -1,4 +1,4 @@
-import { MeshReflectorMaterial, useTexture , useGLTF} from '@react-three/drei'
+import { MeshReflectorMaterial} from '@react-three/drei'
 import { useFrame, useLoader } from '@react-three/fiber'
 import { useEffect } from 'react'
 import {  LinearSRGBColorSpace, RepeatWrapping, TextureLoader } from 'three'

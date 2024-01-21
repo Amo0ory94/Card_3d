@@ -46,7 +46,7 @@ const Boxes = () =>{
         arr &&  arr.map((e, i) =>{
         return(
             <Box 
-              key={1}
+              key={i}
               color={i % 2 === 0 ? [0.4,0.4,0.1]: [0.05,0.15,0.4] }
             />
           )
